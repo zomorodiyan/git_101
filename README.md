@@ -104,4 +104,7 @@ unstage and tell git to mark file/directory as deleted
 ```bash
 git rm --cached -r .
 ```
+## cash credentials
+git config --global credential.helper cache
+git config --global --unset credential.helper
 ## merge (empty)
